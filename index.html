@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pokemon Game | Home</title>
+    <link rel="stylesheet" href="../css/game.css" />
+    <script src="../js/game.js"></script>
+  </head>
+  <body>
+    <div class="container"></div>
+    <header>
+      <h1>Juego Pokemon</h1>
+    </header>
+    <nav></nav>
+    <section>
+      <div class="points">
+        <h4>Puntaje:</h4>
+        <label id="puntaje" for="">0</label>
+        <h4>Intentos:</h4>
+        <label id="intentos" for="">0</label>
+        <h4 id="select">Selecciona el Pokemon correcto</h4>
+      </div>
+      <div class="options">
+      
+        <img id="imgPokemon" src="../img/pnegro.jpg" alt="Cannot load image!" />
+        
+        <button id="btn1" onclick="game(1)">keldeo-ordinary</button>
+        <button id="btn2" onclick="game(2)">drilbur</button>
+        <button id="btn3" onclick="game(3)">ninjask</button>
+        <button id="btn4" onclick="game(4)">excadril</button>
+        <label id="result" for=""> </label>
+        <button id="reset" onclick="reset()">Restart</button>
+      </div>
+    </div>
+    </section>
+    <footer></footer>
+  </body>
+</html>

@@ -1,0 +1,54 @@
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+header {
+  text-align: center;
+}
+
+.points {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  grid-template-columns: repeat(2, 100px);
+  height: 200px;
+  width: 200px;
+  text-align: center;
+  border: 2px dashed blue;
+}
+.points #select {
+  grid-column: 2 span;
+}
+.points #puntaje,
+#intentos {
+  margin: 21.28px;
+}
+
+.options {
+  display: flex;
+  grid-gap: 15px;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 300px;
+  margin: 25px;
+}
+
+.options #imgPokemon {
+  border: 2px solid yellow;
+}
+.options #result {
+  color: white;
+  border: 2px solid black;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.options button,
+.options label {
+  width: 150px;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
